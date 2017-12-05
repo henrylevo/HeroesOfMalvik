@@ -1,0 +1,77 @@
+body {
+    background-color: #0D1B1E;
+    color: #F7F7FF;
+}
+
+h4, h5, h6 {
+    color: #BBA267;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+#line {
+    height: 2px;
+    background: -webkit-linear-gradient(left, rgba(255,0,0,0), rgba(187, 162, 103,1), rgba(255,0,0,0)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, rgba(255,0,0,0), rgba(187, 162, 103,1), rgba(255,0,0,0)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, rgba(255,0,0,0), rgba(187, 162, 103,1), rgba(255,0,0,0)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, rgba(255,0,0,0), rgba(187, 162, 103,1), rgba(255,0,0,0)); /* Standard syntax (must be last) */
+}
+
+.line-banner {
+    margin: 10px 0;
+}
+
+.hero {
+    padding-bottom: 30px;
+}
+
+.align-text {
+    text-align: center;
+}
+
+.cat-head {
+    margin-top: 30px;
+}
+
+.wrapper {
+    margin-top: 10px;
+    color: #000;
+    position: relative;
+    text-align: center;
+    border-radius: 7px 7px 7px 7px;
+    -webkit-box-shadow: 0px 20px 51px -10px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 20px 51px -10px rgba(0,0,0,1);
+    box-shadow: 0px 20px 51px -10px rgba(0,0,0,1);
+}
+
+.wrapper img {
+    border-radius: 7px 7px 7px 7px;
+    border: 2px solid #BBA267;
+}
+
+.profile {
+    position: absolute;
+    top: 80%;
+    height: 20%;
+    width: 100%;
+    background-color: rgba(187, 162, 103, 0.9);
+    border-radius: 0 0 7px 7px;
+}
+
+.winner {
+    position: absolute;
+    top: 10%;
+    height: 20%;
+    width: 100%;
+    color: #BBA267;
+    font-size: 2em;
+}
+
+.name {
+    font-size: 1.5em;
+    margin-bottom: 0;
+}
